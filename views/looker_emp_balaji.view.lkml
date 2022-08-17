@@ -52,6 +52,11 @@ view: looker_emp_balaji {
     sql: ${TABLE}."SAL" ;;
   }
 
+  measure: sal_sum {
+    type: sum
+    sql: ${TABLE}."SAL" ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [ename]
