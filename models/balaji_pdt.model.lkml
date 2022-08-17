@@ -4,7 +4,7 @@ connection: "balaji_infometry_snowflake"
 
 datagroup: balaji_pdt_datagroup {
 sql_trigger: SELECT count(*) FROM looker_emp_balaji;;
- # max_cache_age: "1 minute"
+ max_cache_age: "40 minute"
 }
 
 #persist_with: balaji_pdt_default_datagroup
