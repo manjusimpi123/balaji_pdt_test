@@ -14,5 +14,6 @@ explore:  looker_emp_balaji{
 }
 
 explore: derived_table_1 {
+  persist_with: balaji_pdt_datagroup
 
 }
