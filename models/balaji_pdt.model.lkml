@@ -12,3 +12,7 @@ sql_trigger: SELECT count(*) FROM looker_emp_balaji;;
 explore:  looker_emp_balaji{
   persist_with: balaji_pdt_datagroup
 }
+
+explore: derived_table_1 {
+
+}
