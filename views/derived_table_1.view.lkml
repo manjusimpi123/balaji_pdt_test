@@ -13,7 +13,7 @@ view: derived_table_1 {
           3
        ;;
     datagroup_trigger: balaji_pdt_datagroup
-    cluster_keys: ["EMPNO"]
+    cluster_keys: ["looker_emp_balaji.empno"]
   }
 
   measure: count {
