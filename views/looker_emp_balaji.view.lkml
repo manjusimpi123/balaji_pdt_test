@@ -7,7 +7,8 @@ view: looker_emp_balaji {
     sql: ${TABLE}."COMM" ;;
   }
 
-  dimension: deptno {
+  dimension: DEPARTMENTNO {
+    alias: [deptno]
     type: number
     sql: ${TABLE}."DEPTNO" ;;
   }

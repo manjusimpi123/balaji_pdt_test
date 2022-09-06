@@ -12,8 +12,8 @@ view: derived_table_1 {
           2,
           3
        ;;
-   # datagroup_trigger: balaji_pdt_datagroup
-  #  cluster_keys: ["looker_emp_balaji.empno"]
+    datagroup_trigger: balaji_pdt_datagroup
+    cluster_keys: ["looker_emp_balaji.empno"]
   }
 
   measure: count {
