@@ -10,7 +10,7 @@ view: looker_emp_balaji {
   dimension: DEPARTMENTNO {
     alias: [deptno]
     type: number
-    sql: ${TABLE}."DEPTNO" ;;
+    sql: ${TABLE}."DEPARTMENTNO" ;;
   }
 
   dimension: empno {
