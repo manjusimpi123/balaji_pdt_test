@@ -8,6 +8,7 @@ view: looker_emp_balaji {
   }
 
   dimension: DEPARTMENTNO {
+    description: "DEPT NUMBER"
     alias: [deptno]
     type: number
     sql: ${TABLE}."DEPARTMENTNO" ;;
@@ -47,6 +48,10 @@ view: looker_emp_balaji {
     type: number
     sql: ${TABLE}."MGR" ;;
   }
+  measure: mgr1 {
+    type: number
+    sql: ${TABLE}."MGR" ;;
+}
 
   dimension: sal {
     type: number
@@ -61,5 +66,10 @@ view: looker_emp_balaji {
   measure: count {
     type: count
     drill_fields: [ename]
+  }
+
+  measure: abc {
+    type: number
+    sql: 1*2 ;;
   }
 }
