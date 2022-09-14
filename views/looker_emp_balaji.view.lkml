@@ -58,8 +58,14 @@ view: looker_emp_balaji {
     sql: ${TABLE}."SAL" ;;
   }
 
+  dimension: email {
+    type: string
+    sql: ${TABLE}."EMAIL" ;;
+  }
+
   measure: sal_sum {
     type: sum
+
     sql: ${TABLE}."SAL" ;;
   }
 
@@ -71,5 +77,10 @@ view: looker_emp_balaji {
   measure: abc {
     type: number
     sql: 1*2 ;;
+  }
+
+  measure: aaa {
+    type: number
+
   }
 }
