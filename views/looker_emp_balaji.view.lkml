@@ -59,8 +59,10 @@ view: looker_emp_balaji {
   }
 
   dimension: email {
+    tags: ["email"]
     type: string
     sql: ${TABLE}."EMAIL" ;;
+
   }
 
   measure: sal_sum {

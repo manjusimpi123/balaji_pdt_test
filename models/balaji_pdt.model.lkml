@@ -1,7 +1,7 @@
 connection: "balaji_infometry_snowflake"
 
  include: "/views/**/*.view"
-
+##
 datagroup: balaji_pdt_datagroup {
 sql_trigger: SELECT count(*) FROM looker_emp_balaji;;
  max_cache_age: "3 minute"
