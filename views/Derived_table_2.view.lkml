@@ -12,7 +12,7 @@ view: derived_table_2 {
           2,
           3
        ;;
-    #publish_as_db_view: yes
+    publish_as_db_view: yes
     datagroup_trigger: balaji_pdt_datagroup
     cluster_keys: ["looker_emp_balaji.empno"]
   }
